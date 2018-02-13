@@ -1,7 +1,9 @@
 
+
+// i is an index that starts from the end of the string, we keep updating this index within the function 
 var i=-1;
 /**
- * [reverseStr description]
+ * [reverseStr function to reverse a string recursively]
  * @param  {[string]} str [a string prarameter]
  * @return {[string]}     [a string in a reversed order]
  */
