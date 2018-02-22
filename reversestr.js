@@ -18,3 +18,14 @@ i--;}
 
 
 }
+
+// another way
+function rev (str){
+	if (str.length===0 ){
+	return ''
+	}
+
+	return str[str.length-1]+rev(str.slice(0,str.length-1))
+
+
+}
